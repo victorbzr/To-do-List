@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E8A0BF;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #937DC2;
+}    
+
+h1{
+    color: #E8A0BF;
+    font-weight: 700;
+}
+
+button{
+    background-color: #937DC2;
+    color: #FCC5C0;
+    font-weight: 700;
+    border-radius: 50%;
+    border: 2px solid #FCC5C0;
+    min-width: 60px;
+    min-height: 30px;
+}
+
+#form{
+    margin-top: 20px;
+}
+
+#text{
+    background-color: #FCC5C0;
+    color: #937DC2;
+    font-weight: 700;
+    border-radius: 10%;
+}
+
+#tasks{
+    display: flex;
+    flex-direction: column;
+    color:#937DC2;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+:checked + label{
+    text-decoration: line-through;
+    color:grey;
+}
